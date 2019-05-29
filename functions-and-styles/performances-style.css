@@ -1,0 +1,61 @@
+a.performances-link{
+    font-weight: 900;
+    color:#434343;
+}
+
+a.home-link, a.about-link, a.visits-link{
+    font-weight: 500;
+    color: white;
+}
+
+div.single-performance{
+    max-width:290px;
+    display:inline-block;
+    vertical-align:text-top;
+    margin:0 10px;
+}
+
+h4.performance-year{
+    font-weight:300;
+    font-size:18px;
+    margin-top:0;
+    margin-bottom:5px;
+}
+
+h3.performance-title{
+    margin-bottom:0;
+}
+
+h3.performance-title-japanese{
+    font-family:kanteiryu-w6;
+    font-weight:100;
+    font-size:22px;
+    margin-top:5px;
+    margin-bottom:0;
+}
+
+h3.performance-title-english{
+    font-weight:500;
+    font-size:18;
+    margin-top:2px;
+    margin-bottom:40px;
+}
+
+
+
+@media all and (min-width: 750px){
+    a.home-link, a.about-link, a.visits-link{
+        color: #BF3721;
+    }
+
+    h3.performance-title-english{
+        margin-bottom:60px;
+    }
+}
+
+
+@media all and (min-width: 900px){
+    div.single-performance{
+        margin:0 40px;
+    }
+}

@@ -1,0 +1,623 @@
+/* ↓↓↓↓↓ general settings ↓↓↓↓↓ */
+@font-face {
+    font-family: "kanteiryu-w6";
+    src: url("../fonts/kanteiryu-w6.ttf");
+}
+
+@font-face {
+    font-family: "kanteiryu-w9";
+    src: url("../fonts/kanteiryu-w9.ttf");
+}
+
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    color:#434343;
+}
+
+.hide{
+    display:none;
+}
+
+img.general-img{
+    width:100%;
+}
+
+section.page-content{
+    position:absolute;
+    width:100%;
+    text-align: center;
+}
+
+div.general-content{
+    padding:0 20px;
+    margin:0 auto;
+    max-width:1500px;
+}
+
+p.paragraphs, li.list-in-paragraph{
+    font-weight:300;
+    font-size:18px;
+    line-height: 24px;
+}
+
+ul.list-wrap{
+    padding-left:20px;
+    list-style-type: circle;
+}
+
+.left-aligned-text{
+    text-align: left;
+}
+
+.white-text{
+    color:white;
+}
+
+.inline-block-content{
+    display:inline-block;
+    vertical-align: text-top;
+}
+
+span.club-name{
+    white-space: nowrap;
+}
+
+a{
+    text-decoration:none;
+}
+
+span.link-in-paragraph{
+    font-weight:500;
+    color:#434343;
+}
+
+div.subpage-single-part{
+    margin-bottom:40px;
+}
+
+h1.subpage-title, h1.about-title, h1.videos-title{
+    font-weight:900;
+    font-size:24px;
+    margin-top:0;
+    margin-bottom:10px;
+}
+
+h1.subpage-title, h1.about-title{
+    color:#BF3721;
+}
+
+div.paragraphs-wrap{
+    display:block;
+}
+
+p.subpage-paragraphs{
+    margin-top:0;
+    margin-bottom:10px;
+}
+
+div.dividing-img{
+    max-width:650px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+div.subpage-pic{
+    max-width:100%;
+    margin-bottom:5px;
+    vertical-align:text-top;
+}
+
+div.navigating-buttons{
+    padding:10px 0;
+}
+
+div.page-nav-button-container{
+    display:inline-block;
+    width:140px;
+    margin:10px;
+    padding:5px 0;
+    background-color:#BF3721;
+}
+
+a.page-nav-link{
+    font-weight:500;
+    font-size:14px;
+    color:white;
+    white-space:nowrap;
+}
+
+a.back-to-top-link{
+    padding:18px;
+}
+/* ↑↑↑↑↑ general settings ↑↑↑↑↑ */
+
+/* ↓↓↓↓↓ style for the header on mobile ↓↓↓↓↓ */
+header{
+    height:60vw;
+}
+
+div#pc-header-items{
+    display:none;
+}
+
+img.nav-background-pic{
+    position:absolute;
+}
+
+img#pc-nav-background-pic{
+    display:none;
+}
+
+div#mobile-logo-link{
+    width:35vw;
+    height:24vw;
+    position:absolute;
+    margin-top:9vw;
+    margin-left:34vw;
+
+}
+
+div#logo-home-link{
+    width:100%;
+    height:100%;
+}
+
+div#mobile-menu-wrap{
+    position:absolute;
+    width:100%;
+    margin-top:-21vw;
+}
+
+div#mobile-nav-menu-icon{
+    width:100%;
+    position:absolute;
+    text-align: center;
+}
+
+img#menu-icon{
+    width:9.5vw;
+    padding:3vw;
+    margin-top:-2.5vw;
+    cursor: pointer;
+}
+
+div.social-media-icon{
+    position:absolute;
+    width:8vw;
+}
+
+div.facebook-icon{
+    margin-left:24.6vw;
+}
+
+div.instagram-icon{
+    right:24.5vw;
+}
+
+ul#mobile-nav-menu-list{
+    display:none;
+}
+
+input.nav-input{
+    display:none;
+}
+
+input[type=checkbox]:checked ~ ul#mobile-nav-menu-list{
+    display:block;
+    width:100%;
+    position:absolute;
+    margin-top:15vw;
+    padding:3vw 0;
+    list-style: none;
+    text-align: center;
+    background-color:#BF3721;
+}
+
+li.mobile-nav-item{
+    margin:3vw 0;
+    font-size:4.2vw;
+}
+/* ↑↑↑↑↑ style for the header on mobile ↑↑↑↑↑ */
+
+/* ↓↓↓↓↓ style for the footer on mobile ↓↓↓↓↓ */
+footer{
+    margin-top:10vw;
+    width:100%;
+}
+
+div#footer-background{
+    width:100%;
+    position:absolute;
+}
+
+img.footer-background-pc{
+    display:none;
+}
+
+div#footer-content{
+    position:absolute;
+    margin-top:11vw;
+    margin-left:15vw;
+    margin-right:15vw;
+    text-align:left;
+}
+
+div.footer-section{
+    vertical-align: text-top;
+    display:inline-block;
+    margin:2.8vw 0 0 5vw;
+}
+
+h2.footer-title{
+    font-size:3.5vw;
+    margin:0;
+}
+
+div.sponsor-logo-container{
+    height:13.2vw;
+    display:inline-block;
+    vertical-align:middle;
+    margin-top:0.8vw;
+    margin-right:2vw;
+}
+
+img.sponsor-logo-img{
+    height:100%;
+}
+
+p.footer-text{
+    font-size:12px;
+    font-weight:300;
+    margin-top:0.5vw;
+    margin-bottom:1.2vw;
+}
+
+img.footer-social-media-pic{
+    display:none;
+}
+
+span.contact-link{
+    color:white;
+    font-weight:800;
+}
+/* ↑↑↑↑↑ style for the footer on mobile ↑↑↑↑↑ */
+
+
+
+
+
+/* ↓↓↓↓↓ style for general pc ↓↓↓↓↓ */
+@media all and (min-width: 750px) {
+
+    /* ↓↓↓↓↓ general settings ↓↓↓↓↓ */
+    div.general-content{
+        padding:0 30px;
+    }
+    /* ↑↑↑↑↑ general settings ↑↑↑↑↑ */
+
+    /* ↓↓↓↓↓ style for the header on pc ↓↓↓↓↓ */
+    header{
+        height:42vw;
+    }
+
+    img.nav-background-pic{
+        display:none;
+    }
+
+    div#pc-nav-background-container{
+        width:100%;
+    }
+    
+    img#pc-nav-background-pic{
+        display:block;
+        position:absolute;
+    }
+
+    div#mobile-menu-wrap{
+        display:none;
+    }
+
+    div#mobile-logo-link{
+        display:none;
+    }
+
+    div#pc-header-items{
+        display:block;
+        position:absolute;
+        width:100%;
+    }
+
+    div#pc-header-logo{
+        width:66vw;
+        margin-top:6.2vw;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    div.social-media-icon{
+        position:absolute;
+        width:3vw;
+        margin-top:3.7vw;
+    }
+    
+    div.facebook-icon{
+        margin-left:17vw;
+    }
+    
+    div.instagram-icon{
+        right:17.2vw;
+    }
+
+   div#pc-menu-items{
+       width:100%;
+       margin-top:11vw;
+       text-align:center;
+   }
+
+   div.pc-nav-items-container{
+       width:12.2vw;
+       display:inline-block;
+       text-align:center;
+   }
+
+   a.pc-nav-link{
+       width:10vw;
+       font-size:1.4vw;
+   }
+   /* ↑↑↑↑↑ style for the header on pc ↑↑↑↑↑ */
+
+   /* ↓↓↓↓↓ style for the footer on pc ↓↓↓↓↓ */
+   img.footer-background-pc{
+    display:block;
+   }
+
+   img.footer-background-mobile{
+    display:none;
+   }
+
+   div#footer-content{
+       width:100%;
+       margin-top:8.8vw;
+       margin-left:0;
+       margin-right:0;
+       text-align: center;
+   }
+
+   div.footer-section{
+    margin:0 1.2vw 0 1.2vw;
+    text-align: left;
+   }
+
+   h2.footer-title{
+    font-size:1.8vw;
+    margin-bottom:0.6vw;
+   }
+
+   p.footer-text{
+    font-size:1.28vw;
+    margin-top:0.5vw;
+    margin-bottom:0.4vw;
+   }
+
+   p.author-claim{
+       padding-top:0.9vw;
+   }
+
+   div.contact-wrap{
+    display:inline-block;
+    vertical-align:text-top;
+   }
+
+   img.footer-social-media-pic{
+    display:inline-block;
+    width:2.2vw;
+    margin-top:1vw;
+    margin-bottom:0.2vw;
+    margin-left:-0.5vw;
+    margin-right:0.8vw;
+   }
+
+   div.sponsor-logo-container{
+    height:7.2vw;
+    margin-top:0.5vw;
+    margin-right:1vw;
+   }
+   /* ↑↑↑↑↑ style for the footer on pc ↑↑↑↑↑ */
+   div.subpage-pic{
+    width:350px;
+    float: left;
+    margin-right:10px;
+   }
+   h1.subpage-title, h3.single-trip-title{
+    text-align:left;
+   }
+}
+/* ↑↑↑↑↑ style for the general pc ↑↑↑↑↑ */
+
+
+/* ↓↓↓↓↓ style for subpages on pc ↓↓↓↓↓ */
+@media all and (min-width: 850px){
+    div.subpage-pic{
+        float: none;
+        margin-right:10px;
+    }
+    div.paragraphs-wrap{
+        display:inline-block;
+        vertical-align:text-top;
+        width:410px;
+    }
+
+    h1.subpage-title, h3.single-trip-title{
+        width:770px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
+@media all and (min-width: 910px){
+    div.paragraphs-wrap{
+        width:450px;
+    }
+    h1.subpage-title, h3.single-trip-title{
+        width:810px;
+    }
+}
+
+@media all and (min-width: 1000px){
+    div.paragraphs-wrap{
+        width:560px;
+    }
+    h1.subpage-title, h3.single-trip-title{
+        width:920px;
+    }
+}
+
+@media all and (min-width: 1100px){
+    h2.footer-title{
+        font-size:24px;
+        margin-bottom:10px;
+     }
+
+    div.subpage-pic{
+        width:400px;
+        margin-right:20px;
+    }
+    div.paragraphs-wrap{
+        width:600px;
+    }
+    h1.subpage-title, h3.single-trip-title{
+        width:1020px;
+    }
+}
+
+@media all and (min-width: 1500px){
+    div.dividing-img{
+        margin-bottom:80px;
+    }
+    div.subpage-pic{
+        width:450px;
+        margin-right:20px;
+    }
+    div.paragraphs-wrap{
+        width:650px;
+    }
+    h1.subpage-title, h3.single-trip-title{
+        width:1120px;
+    }
+}
+/* ↑↑↑↑↑ style for subpages on pc ↑↑↑↑↑ */
+
+
+
+/* ↓↓↓↓↓ style for big screen ↓↓↓↓↓ */
+@media all and (min-width: 1600px){
+       h1.subpage-title{
+        font-size:32px;
+       }
+
+       div#footer-content{
+        margin-top:10vw;
+        margin-left:0;
+       }
+
+       div.footer-section{
+        margin:0 30px 0 30px;
+       }
+    
+       p.footer-text{
+        font-size:18px;
+        margin-top:10px;
+        margin-bottom:5px;
+       }
+
+       p.author-claim{
+        padding-top:20px;
+    }
+    
+       img.footer-social-media-pic{
+        width:40px;
+        margin-top:15px;
+        margin-bottom:10px;
+        margin-left:-4px;
+        margin-right:12px;
+       }
+    
+       div.sponsor-logo-container{
+        height:130px;
+        margin-top:0;
+        margin-right:20px;
+       }
+}
+
+
+@media all and (min-width: 1800px){
+    header{
+        height:750px;
+        width:1700px;
+        margin:0 auto;
+    }
+
+    div#pc-nav-background-container{
+        width:1700px;
+        margin:0 auto;
+    }
+
+    img#pc-nav-background-pic{
+        width:1700px;
+    }
+
+    div#pc-header-items{
+        width:1700px;
+        margin:0 auto;
+    }
+
+    div#pc-header-logo{
+        width:1150px;
+        margin-top:100px;
+    }
+
+    div.social-media-icon{
+        width:50px;
+        margin-top:70px;
+    }
+    
+    div.facebook-icon{
+        margin-left:293px;
+    }
+    
+    div.instagram-icon{
+        right:295px;
+    }
+
+    div.pc-nav-items-container{
+        width:210px;
+        display:inline-block;
+        text-align:center;
+    }
+
+    div#pc-menu-items{
+        margin-top:200px;
+    }
+ 
+    a.pc-nav-link{
+        width:30px;
+        font-size:24px;
+    }
+
+    footer{
+        margin-top:150px;
+    }
+
+    img.footer-background-pc{
+        width:1700px !important;
+        margin:0 auto;
+    }
+
+    div#footer-content{
+        margin-top:170px;
+       }
+}
+/* ↑↑↑↑↑ style for big screen ↑↑↑↑↑ */

@@ -1,0 +1,86 @@
+a.visits-link{
+    font-weight: 900;
+    color:#434343;
+}
+
+a.home-link, a.performances-link, a.about-link{
+    font-weight: 500;
+    color: white;
+}
+
+div.availability-wrap{
+    margin:60px auto;
+}
+
+h1.availability-title{
+    font-weight:900;
+    font-size:26px;
+    color:#8CB8BF;
+    margin-top:0;
+    margin-bottom:10px;
+}
+
+div.availability-text{
+    max-width:600px;
+    color:white;
+    font-weight:500;
+    font-size:18px;
+    line-height: 26px;
+    background-color:#8CB8BF;
+    padding:20px 20px 10px 20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h3.single-trip-title{
+    font-weight:500;
+    font-style:italic;
+    font-size:22px;
+    margin-top:0;
+    margin-bottom:10px;
+}
+
+div.single-trip{
+    margin-bottom:20px;
+}
+
+div.dividing-img{
+    margin-top:0;
+    margin-bottom:50px;
+}
+
+@media all and (min-width: 750px){
+    a.home-link, a.performances-link, a.about-link{
+        color: #BF3721;
+    }
+
+    div.availability-wrap{
+        margin-top:60px;
+        margin-bottom:80px;
+    }
+    
+    div.dividing-img{
+        margin-bottom:60px;
+    }
+
+    div.single-trip{
+        margin-bottom:40px;
+    }
+}
+
+@media all and (min-width: 1500px){
+    div.availability-wrap{
+        margin-top:80px;
+        margin-bottom:100px;
+    }
+
+    div.single-trip{
+        margin-bottom:50px;
+    }
+}
+
+@media all and (min-width: 1600px){
+    h1.availability-title{
+        font-size:32px;
+    }
+}

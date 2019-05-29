@@ -1,0 +1,385 @@
+/* ↓↓↓↓↓ navigation ↓↓↓↓↓ */
+a.home-link{
+    font-weight: 900;
+    color:#434343;
+}
+
+a.performances-link, a.about-link, a.visits-link{
+    font-weight: 500;
+    color: white;
+}
+
+/* ↑↑↑↑↑ navigation ↑↑↑↑↑ */
+
+
+/* ↓↓↓↓↓ photo slideshow ↓↓↓↓↓ */
+div#index-photo-slideshow{
+    width:100%;
+    text-align:center;
+}
+
+div#slideshow-wrap{
+    max-width:920px;
+    height:75vw;
+    text-align:center;
+    margin:0 auto;
+}
+
+div.slideshow-photo{
+    max-width:920px;
+    position:absolute;
+    transition:opacity 0.3s linear;
+}
+
+div.slideshow-photo-1{
+    animation: autoplay-1 6s ease infinite;
+    -webkit-animation: autoplay-1 12s ease infinite;
+}
+
+div.slideshow-photo-2{
+    animation: autoplay-2 6s ease infinite;
+    -webkit-animation: autoplay-2 12s ease infinite;
+}
+
+div.slideshow-photo-3{
+    animation: autoplay-3 6s ease infinite;
+    -webkit-animation: autoplay-3 12s ease infinite;
+}
+
+@keyframes autoplay-1 {
+    0% {opacity:1;}
+    13% {opacity:1;}
+    33% {opacity:0;}
+    80% {opacity:0;}
+    100% {opacity:1;}
+  }
+@-webkit-keyframes autoplay-1 {
+    0% {opacity:1;}
+    13% {opacity:1;}
+    33% {opacity:0;}
+    80% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+@keyframes autoplay-2 {
+    0% {opacity:0;}
+    13% {opacity:0;}
+    33% {opacity:1;}
+    47% {opacity:1;}
+    67% {opacity:0;}
+    100% {opacity:0;}
+  }
+@-webkit-keyframes autoplay-2 {
+    0% {opacity:0;}
+    15% {opacity:0;}
+    33% {opacity:1;}
+    46% {opacity:1;}
+    66% {opacity:0;}
+    100% {opacity:0;}
+  }
+
+@keyframes autoplay-3 {
+    0% {opacity:0;}
+    46% {opacity:0;}
+    66% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+  }
+@-webkit-keyframes autoplay-3 {
+    0% {opacity:0;}
+    46% {opacity:0;}
+    66% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+  }
+
+
+/* ↑↑↑↑↑ photo slideshow ↑↑↑↑↑ */
+
+/* ↓↓↓↓↓ welcome message ↓↓↓↓↓ */
+h1#welcome-message-title{
+    font-weight:900;
+    font-size:24px;
+    color:#BF3721;
+    margin-top:0;
+    margin-bottom:12px;
+}
+
+p.welcome-message-text{
+    max-width:678px;
+    margin:0 auto;
+    font-weight:400;
+    font-size:18px;
+    color:#BF3721;
+}
+
+/* ↑↑↑↑↑ welcome message ↑↑↑↑↑ */
+
+/* ↓↓↓↓↓ events ↓↓↓↓↓ */
+div#index-events{
+    margin-top:50px;
+}
+
+div.small-event-wrap{
+    margin-bottom:50px;
+}
+
+div.big-event-wrap{
+    margin-bottom:70px;
+}
+
+div.section-title-container-2{
+    text-align:center;
+}
+
+div.section-title-container-1{
+    text-align:center;
+    margin-top:60px;
+}
+
+h1.event-status-title{
+    color:#8CB8BF;
+    font-weight:700;
+    font-size:24px;
+    margin-top:0;
+    margin-bottom:10px;
+}
+
+h1.event-section-title{
+    color:#BF3721;
+    font-weight:700;
+    font-size:18px;
+    margin-top:0;
+    margin-bottom:10px;
+}
+
+img.event-poster{
+    width:250px;
+    margin-bottom:5px;
+}
+
+div.event-pic-section{
+    display:block;
+}
+
+div.event-text-section{
+    display:block;
+    max-width:600px;
+    margin:0 auto;
+}
+
+div.small-event-name{
+    margin-bottom:15px;
+}
+
+h1.event-name{
+    margin:0;
+}
+
+h1.event-name-japanese{
+    font-size: 32px;
+    font-family: kanteiryu-w9;
+    font-weight:100;
+}
+
+h1.event-name-english{
+    font-size: 24px;
+    font-weight:900;
+}
+
+.event-subtitle{
+    font-weight:500;
+    font-size:18px;
+    margin-top:15px;
+    margin-bottom:5px;
+}
+
+div.small-event-info-item{
+    margin-top:5px;
+}
+
+span.event-text{
+    font-weight:300;
+    font-size:18px;
+    margin:0 3px;
+}
+
+p.event-text{
+    margin:0;
+}
+
+div.event-link-container{
+    margin-top:30px;
+    margin-bottom:40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.small-event-text-container{
+    background-color:#8CB8BF;
+    padding:30px 10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+a.event-link{
+    font-size:18px;
+    font-weight:900;
+    color:white;
+}
+
+a.big-event-link{
+    white-space:nowrap;
+}
+
+div.small-event-link-container{
+    margin-top:20px;
+}
+
+a.small-event-link{
+    padding:10px 0;
+}
+
+a.big-event-link{
+    padding:10px 20px;
+    background-color:#8CB8BF;
+}
+/* ↑↑↑↑↑ events ↑↑↑↑↑ */
+
+
+/* ↓↓↓↓↓ style on pc ↓↓↓↓↓ */
+@media all and (min-width: 750px){
+    a.performances-link, a.about-link, a.visits-link{
+        color: #BF3721;
+    }
+
+    p.welcome-message-text{
+        text-align:left;
+    }
+
+    div#slideshow-wrap{
+        max-width:870px;
+        height:72vw;
+    }
+    
+    div.slideshow-photo{
+        max-width:870px;
+    }
+
+    label.dot{
+        width: 15px;
+        height: 15px;
+    }
+
+    label.dot-1{
+        margin-left:-30px;
+    }
+    
+    label.dot-3{
+        margin-left:30px;
+    }
+
+    h1#welcome-message-title{
+        font-size:40px;
+    }
+
+    /* ↓↓↓↓↓ events ↓↓↓↓↓ */
+    div#index-events{
+        margin-top:90px;
+    }
+    
+    h1.event-name-japanese{
+        font-size: 42px;
+        font-family: kanteiryu-w9;
+    }
+    
+    h1.event-name-english{
+        font-size: 31px;
+    }
+
+}
+
+@media all and (min-width: 870px){
+    div#slideshow-wrap{
+        height:640px;
+    }
+
+    label.dot{
+        margin-top: 615px;
+    }
+}
+
+@media all and (min-width: 960px){
+    div.event-pic-section{
+        display:inline-block;
+        vertical-align:text-top;
+    }
+
+    div.event-text-section{
+        display:inline-block;
+        vertical-align:text-top;
+        text-align:left;
+        margin-left:20px;
+    }
+
+    a.big-event-link{
+        margin-left:0;
+    }
+
+    div.section-title-container-1{
+        max-width:870px;
+        text-align:left;
+        margin:80px auto 0 auto;
+    }
+
+    div.big-event-wrap{
+        margin-bottom:90px;
+    }
+
+    div.small-event-text-container{
+        max-width:850px;
+    }
+
+    div.section-title-container-2{
+        width:250px;
+    }
+
+    div.big-event-link-container{
+        display:inline-block;
+        margin-right:15px;
+        margin-bottom:6px;
+    }
+
+}
+
+@media all and (min-width: 1000px){
+
+    div#slideshow-wrap{
+        max-width:920px;
+        height:660px;
+    }
+
+    label.dot{
+        margin-top: 640px;
+    }
+
+    div.slideshow-photo, div.section-title-container-1{
+        max-width:920px;
+    }
+
+    div.small-event-text-container{
+        max-width:900px;
+    }
+
+    div.section-title-container-2{
+        width:300px;
+    }
+
+    img.event-poster{
+        width:300px;
+        margin-bottom:0;
+    }
+    /* ↑↑↑↑↑ events ↑↑↑↑↑ */
+}
+
+/* ↑↑↑↑↑ style on pc ↑↑↑↑↑ */

@@ -1,0 +1,100 @@
+a.about-link{
+    font-weight: 900;
+    color:#434343;
+}
+
+a.home-link, a.performances-link, a.visits-link{
+    font-weight: 500;
+    color: white;
+}
+
+iframe.kabuki-video{
+    width:288px;
+    height:162px;
+    margin:5px;
+}
+
+h1.videos-title{
+    color:#8CB8BF;
+}
+
+div.photos-link-container{
+    margin:50px auto 60px auto;
+}
+
+a.photos-link{
+    background-color:#8CB8BF;
+    font-weight:500;
+    font-size:18px;
+    padding:10px 30px;
+    color:white;
+    white-space:nowrap;
+}
+
+div.videos-wrap{
+    margin-bottom:40px;
+}
+
+div.dividing-img{
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+div.no-pic-paragraphs-wrap{
+    max-width:800px;
+    margin:0 auto;
+}
+
+a.page-nav-link-history{
+    padding:15px 40px;
+}
+
+a.page-nav-link-style{
+    padding:15px 50px;
+}
+
+a.page-nav-link-club-life{
+    padding:15px 36px;
+}
+
+a.page-nav-link-sponsorship{
+    padding:15px 22px;
+}
+
+a.page-nav-link-contact{
+    padding:15px 38px;
+}
+
+
+
+@media all and (min-width: 750px){
+    a.home-link, a.performances-link, a.visits-link{
+        color: #BF3721;
+    }
+
+    iframe.kabuki-video{
+        width:560px;
+        height:315px;
+        margin:5px;
+    }
+
+    div.dividing-img{
+        margin-top:70px;
+        margin-bottom:70px;
+    }
+
+    a.photos-link{
+        padding:10px 50px;
+    }
+}
+
+@media all and (min-width: 1000px){
+    div.photos-link-container{
+        margin-top:70px;
+        margin-bottom:80px;
+    }
+
+    div.navigating-buttons{
+        padding:30px 0;
+    }
+}

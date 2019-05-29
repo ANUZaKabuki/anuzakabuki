@@ -1,0 +1,256 @@
+<!--  -->
+<!-- ↑↑↑↑↑ The texts in this kind of brackets are notes which won't be displayed in the browsers. ↑↑↑↑↑ -->
+
+
+<!--
+Instruction: How to Use this Codes Backup File
+
+This file is used when the code of existing content is damaged.
+This file contains sections of codes that could be used to replace the old contents of the website.
+
+When you need to do the replacement, please have a look at the content you want to replace in the original html file.
+e.g. if you want to replace a 'small event' on the index page, please look at the code of index-events.html, and you will find the code section which needs to be replaced.
+And you will also find that there are notes marking the start and end of every code section.
+In the notes, you will find the noted name of the code section, which is called 'single event - small'
+
+Then search 'single event - small' in this file, and you will find one or more code sections that you might need.
+
+Have a look at the contents and select the code section that you need, then copy it to replace the old content.
+When you copy and paste the codes, please copy together with the notes before and after the sections.
+-->
+
+
+
+
+<!-- 
+Part 1: Events on Index Page
+
+The following codes are the event templates in index page. 
+There are 2 kinds of events. The first kind is small events without posters. They could include O-Week, Bush Week, weekly practice or backstage sessions.
+the second kind is big events. Generally they are the annual performances, or any big events with posters and detailed information.
+
+There are 4 kinds of templates for all the events:
+1-small event without poster
+2-a generic version when there is no small event on
+3-a generic version of annual performance
+4-a template for annual performance or other big events
+-->
+
+
+<!-- ↓↓↓↓↓ event status - centred ↓↓↓↓↓ -->
+<div class="event-status">
+    <h1 class="event-status-title">WHAT'S ON</h1>
+</div>
+<!-- ↑↑↑↑↑ event status - centred ↑↑↑↑↑ -->
+
+<!-- ↓↓↓↓↓ single event - small ↓↓↓↓↓ -->
+<div class="single-event-wrap small-event-wrap">
+    <div class="small-event-text-container">
+        <div class="small-event-name">
+            <h1 class="event-name event-name-english">ACTING PRACTICE</h1>
+        </div>
+
+        <div class="small-event-info-item">
+            <span class="event-subtitle">DATE</span>
+            <span class="paragraphs event-text">5pm Every Friday</span>
+        </div>
+
+        <div class="small-event-info-item">
+            <span class="event-subtitle">PLACE</span>
+            <span class="paragraphs event-text">Staff Common Room, 4F, Baldessin Precinct Building</span>
+        </div>
+
+        <div class="small-event-link-container">
+            <a class="event-link small-event-link" href="https://www.facebook.com/groups/280253186181220/"
+                target="_blank">JOIN ZA KABUKI 20XX</a>
+        </div>
+    </div>
+</div>
+<!-- ↑↑↑↑↑ single event - small ↑↑↑↑↑ -->
+
+
+<!-- ↓↓↓↓↓ event status - aligned with poster ↓↓↓↓↓ -->
+<div class="event-status section-title-container-1">
+    <div class="section-title-container-2">
+        <h1 class="event-status-title">COMING SOON</h1>
+    </div>
+</div>
+<!-- ↑↑↑↑↑ event status - aligned with poster ↑↑↑↑↑ -->
+
+
+<!-- ↓↓↓↓↓ single event - big - generic ↓↓↓↓↓ -->
+<div class="single-event-wrap big-event-wrap">
+    <div class="event-pic-section">
+        <img class="event-poster" src="pics/index/poster-replacing-pic.jpg" alt="Event Poster">
+    </div>
+
+    <div class="event-text-section">
+        <h1 class="event-name event-name-japanese">20XX年度公演 </h1>
+        <h1 class="event-name event-name-english">ANNUAL PERFORMANCE 20XX</h1>
+        <h2 class="event-subtitle">DATE</h2>
+        <p class="paragraphs event-text">To be confirmed</p>
+        <h2 class="event-subtitle">PLACE</h2>
+        <p class="paragraphs event-text">To be confirmed</p>
+        <h2 class="event-subtitle">INTRODUCTION</h2>
+        <p class="paragraphs left-aligned-text event-text">
+            The details for this year’s play are still to be confirmed. Please keep following this site or our social
+            media, which you can find in the top and bottom of page. If you are an ANU student who has a passion for
+            theatre and/or Japanese culture, we welcome you to join us anytime!
+        </p>
+        <div class="event-link-container big-event-link-container">
+            <a class="event-link big-event-link" href="#">PLEASE WAIT...</a>
+        </div>
+    </div>
+</div>
+<!-- ↑↑↑↑↑ single event - big - generic ↑↑↑↑↑ -->
+
+
+
+<!-- ↓↓↓↓↓ single event - big - performance ↓↓↓↓↓ -->
+<div class="single-event-wrap big-event-wrap">
+    <div class="event-pic-section">
+        <img class="event-poster" src="pics/index/poster-replacing-pic.jpg" alt="Event Poster">
+    </div>
+
+    <div class="event-text-section">
+        <h1 class="event-name event-name-japanese">公演表題</h1>
+        <h1 class="event-name event-name-english">PERFORMANCE TITLE</h1>
+        <h2 class="event-subtitle">DATE</h2>
+        <p class="paragraphs event-text">7-9pm XXth Oct 20XX</p>
+        <p class="paragraphs event-text">7-9pm XXth Oct 20XX</p>
+        <p class="paragraphs event-text">1-3pm XXth Oct 20XX</p>
+        <h2 class="event-subtitle">PLACE</h2>
+        <p class="paragraphs event-text">Theatre 3 Repertory Lane, The Australian National University</p>
+        <h2 class="event-subtitle">INTRODUCTION</h2>
+        <p class="paragraphs left-aligned-text event-text">
+            The details for this year’s play are still to be confirmed. Please keep following this site or our social
+            media, which you can find in the top and bottom of page. If you are an ANU student who has a passion for
+            theatre and/or Japanese culture, we welcome you to join us anytime!
+        </p>
+        <div class="event-link-container big-event-link-container">
+            <a class="event-link big-event-link" href="#">TICKETS (Q-PAY)</a>
+        </div>
+        <div class="event-link-container big-event-link-container">
+            <a class="event-link big-event-link" href="#">TICKETS (THEATRE SITE)</a>
+        </div>
+    </div>
+</div>
+<!-- ↑↑↑↑↑ single event - big - performance ↑↑↑↑↑ -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+Part 2: index-photo-slideshow.html
+The photo slideshow on index page
+-->
+
+<!-- ↓↓↓↓↓ photo slideshow ↓↓↓↓↓ -->
+<div id="slideshow-wrap">
+    <div class="slideshow-photo slideshow-photo-1">
+        <img class="general-img" src="pics/index/photo-slideshow/1.jpg" alt="">
+    </div>
+
+    <div class="slideshow-photo slideshow-photo-2">
+        <img class="general-img" src="pics/index/photo-slideshow/2.jpg" alt="">
+    </div>
+
+    <div class="slideshow-photo slideshow-photo-3">
+        <img class="general-img" src="pics/index/photo-slideshow/3.jpg" alt="">
+    </div>
+</div>
+<!-- ↑↑↑↑↑ photo slideshow ↑↑↑↑↑ -->
+
+
+
+
+
+
+
+
+
+<!-- 
+Part 3: single performance code section in performances-list.html
+single performance on performances page
+-->
+
+<!-- ↓↓↓↓↓ single performance ↓↓↓↓↓ -->
+<div class="single-performance">
+
+    <div class="single-performance-year-container">
+        <h4 class="performance-year">20XX</h4>
+    </div>
+
+    <img class="general-img performance-poster" src="pics/performances/2018.jpg" alt="">
+
+    <div class="single-performance-title-container">
+        <h3 class="performance-title performance-title-japanese">公演表題</h3>
+        <h3 class="performance-title performance-title-english">Performance Title</h3>
+    </div>
+
+</div>
+<!-- ↑↑↑↑↑ single performance ↑↑↑↑↑ -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+Part 4: visits-and-trips-availability.html
+an explanation of our availability for school visits and trips
+-->
+
+<!-- ↓↓↓↓↓ visits and trips availability ↓↓↓↓↓ -->
+<p class="subpage-paragraphs">
+    We are NOT AVAILABLE between 31st May to 14th July due to examination period and mid-year break.
+</p>
+<p class="subpage-paragraphs">
+    From 15th July - 30th September, we are available to do school visits. But please contact us up to 2+weeks before
+    you would like us to visit so that we have time to prepare.
+</p>
+<p class="subpage-paragraphs">
+    For events and trips, please contact us up to 3 months in advance.
+</p>
+<!-- ↑↑↑↑↑ visits and trips availability ↑↑↑↑↑ -->
+
+
+
+
+
+
+
+
+
+<!-- 
+Part 5: visits-and-trips-history.html
+documentation of trip history
+-->
+
+<!-- ↓↓↓↓↓ single trip ↓↓↓↓↓ -->
+<div class="single-trip">
+    <h3 class="single-trip-title">20XX Place</h3>
+
+    <div class="small-pic-container inline-block-content subpage-pic">
+        <img class="general-img" src="pics/visits-and-trips/Cowra.jpg" alt="">
+    </div>
+
+    <div class="paragraphs-wrap left-aligned-text">
+        <p class="paragraphs subpage-paragraphs">
+            Put the introduction of the trip here.
+        </p>
+    </div>
+</div>
+<!-- ↑↑↑↑↑ single trip ↑↑↑↑↑ -->
